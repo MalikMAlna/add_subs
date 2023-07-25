@@ -1,10 +1,10 @@
 # Add Subs
 
-Translates and/or transcribes video audio to English and adds subtitles to said video using the Whisper API and moviepy.
+Simple script that translates and/or transcribes video audio to English and adds subtitles to said video using the Whisper API and MoviePy.
 
 ## Set Up
 
-_Please note: I've only set this up on a Linux terminal with Python 3.8+. So these instructions might not be entirely right if you're using a non Unix-based operating system (AKA Windows. MacOS should be fine)._
+_Please note: I've only set this up on a Linux terminal with Python 3.8+. So these instructions might not be entirely right if you're using a non-Unix-based operating system (AKA Windows. MacOS should be fine)._
 
 ### Virtual Environment
 ```
@@ -19,3 +19,8 @@ pip install -r requirements.txt --use-pep517
 cp env-template .env
 ```
 Then paste in your `OPENAI_API_KEY` within the double quotes.
+
+### Run the Script
+```
+python main.py
+```
