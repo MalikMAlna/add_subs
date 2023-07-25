@@ -1,4 +1,6 @@
-# Whisper API Stuff
+# Add Subs
+
+Translates and/or transcribes video audio to English and adds subtitles to said video. 
 
 ## Set Up
 
