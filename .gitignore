@@ -2,3 +2,4 @@
 *.mp4
 .env
 venv/
+*.mp3

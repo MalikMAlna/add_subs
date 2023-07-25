@@ -7,7 +7,7 @@ load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Get path to video file with Python
-video_file_path = os.path.join(os.getcwd(), "kpop-1_duorty.mp4")
+video_file_path = os.path.join(os.getcwd(), "sample.mp4")
 
 try:
     try:
