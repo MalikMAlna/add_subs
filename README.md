@@ -1,6 +1,6 @@
 # Add Subs
 
-Translates and/or transcribes video audio to English and adds subtitles to said video. 
+Translates and/or transcribes video audio to English and adds subtitles to said video using the Whisper API and moviepy.
 
 ## Set Up
 
