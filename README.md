@@ -10,7 +10,7 @@ python -m venv ./venv
 
 source absolute/path/to/activate_file
 
-pip install -r requirements.txt
+pip install -r requirements.txt --use-pep517
 ```
 ### Environment Variables
 ```

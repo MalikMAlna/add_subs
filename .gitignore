@@ -1,5 +1,6 @@
-*.txt
 *.mp4
 .env
 venv/
 *.mp3
+*.srt
+*.m4a
