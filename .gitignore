@@ -1,0 +1,4 @@
+*.txt
+*.mp4
+.env
+venv/
