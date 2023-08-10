@@ -3,13 +3,19 @@ from dotenv import load_dotenv
 import openai
 from moviepy.editor import TextClip, VideoFileClip, CompositeVideoClip
 from moviepy.video.tools.subtitles import SubtitlesClip
+import argparse
+
+parser = argparse.ArgumentParser(description="Add subtitles to video")
+parser.add_argument("-v", "--video", help="Path to video file", default="sample.mp4")
+args = parser.parse_args()
+config = vars(args)
 
 load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Get path to video file with Python
-video_file_path = os.path.join(os.getcwd(), "sample.mp4")
+video_file_path = config.get("video")
 
 try:
     try:
