@@ -35,5 +35,8 @@ Then paste in your `OPENAI_API_KEY` within the double quotes.
 ### Run the Script
 
 ```
-python main.py --video <PATH TO TARGET MP4>
+python main.py --video <PATH TO TARGET MP4> --type <translate or transcribe> 
 ```
+
+### Known Issues
+The transcribe option doesn't seem to work for certain languages and transcriptions for languages that aren't English aren't as accurate. These are mostly issues with the Whisper API and Moviepy that are outside of our hands.
